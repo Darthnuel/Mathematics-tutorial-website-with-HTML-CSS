@@ -1,0 +1,199 @@
+#container{
+    width: 1050px;
+    margin: 0 auto;
+
+}
+h1 a{
+    font-size: 60px;
+    font-weight: lighter;
+    color: rgb(174, 53, 170);
+    text-decoration: none;
+}
+
+#searchbox{
+    float: right;
+    background: -webkit-linear-gradient(#BBEA5C,#E1F1B2);
+    background: -o-linear-gradient(#BBEA5C,#E1F1B2);
+    background: -moz-linear-gradient(#BBEA5C,#E1F1B2);
+    width: 400px;
+    height: 50px;
+    padding: 20px 10px 0 10px;
+    margin-top: 20px;
+    
+}
+#header{
+    height: 100px;
+    padding:10px 0px
+}
+#brand{
+    float: left;
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+    background: white url(images/searchicon.png) right center no-repeat;
+    border: 1px solid #D8F09F;
+
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #AE35AA;
+
+}
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    background: -webkit-linear-gradient(#f7e608,#d7ec13);
+    background: -o-linear-gradient(#f7e608,#d7ec13);
+    background: -moz-linear-gradient(#f7e608,#d7ec13);
+    
+    padding: 5px 0px;
+}
+ul{
+    list-style: none;
+
+}
+
+
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 40px;
+    border-right: 1px solid #AE35AA;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #AE35AA;
+    line-height: 40px;
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+
+}
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(174, 53, 170);
+}
+#menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+#introduction{
+    background: -webkit-linear-gradient(#E1F1B2,#BBEA5C);
+    background: -o-linear-gradient(#E1F1B2,#BBEA5C);
+    background: -moz-linear-gradient(#E1F1B2,#BBEA5C);
+    height: 300px;
+    margin-top: -30px;
+}
+#header3{
+    font-weight: normal;
+    font-size: 50px;
+    color: #316901;
+    padding: 50px 0px 0px 30px;
+}
+#introductionp{
+    font-family: serif;
+    color: #628F46;
+    font-size: 20px;
+    padding: 0px 0px 0px 30px;
+}
+#box1{
+    height: 550px;
+    width: 500px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:#CAED7D;
+    float: left;
+    padding: 0px 0px 0px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+#box2{
+    height: 550px;
+    width: 480px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #CAED7D;
+    float: right;
+    padding: 0px 0px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#box1p{
+    color: #AE35AA;
+    font-size: 30px;
+    font-weight: bold;
+}
+#box1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    line-height: 35px;
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+#box1 ul li a:hover{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(174, 53, 170);
+}
+#box2p{
+    color: #AE35AA;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 0px 0px 20px;
+}
+#box2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    line-height: 60px;
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+#box2 ul li a:hover{
+    font-size: 22px;
+    font-weight: bold;
+    color:#AE35AA
+}
+#box1 ul li{
+    list-style-image:url(images/arrow.png);
+    padding: 0px 0px 0px 10px;
+}
+#box2 ul li{
+    list-style-image:url(images/checkmark.png);
+    padding: 0px 0px 0px 10px;
+}
+#footer{
+    height: 70px;
+    width:1015px;
+    background: -webkit-linear-gradient(#f7e608,#d7ec13);
+    background: -o-linear-gradient(#f7e608,#d7ec13);
+    background: -moz-linear-gradient(#f7e608,#d7ec13);
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 97px;
+}
